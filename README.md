@@ -1,2 +1,2 @@
 # app-previsao-de-agrupamentos
- Modelo capaz de agrupar consumidores com base em seus interesses.
+Modelo de aplicação web, baseado em previsão e agrupamento de consumidores, com base em seus interesses.
