@@ -48,10 +48,6 @@ if up_file is not None:
 
     st.write('Visualização dos resultados (10 primeiros registros):')
     st.write(df.head(10))
-tab1, tab2 = st.tabs(["Análise 1", "Análise 2"])
-with tab1:
-    st.write("Conteúdo da Análise 1")
-with tab2:
-    st.write("Conteúdo da Análise 2")
+
     csv = df.to_csv(index=False)
     st.download_button(label='Baixar resultados completos', data = csv, file_name = 'Grupos_interesse.csv', mime='text/csv')
