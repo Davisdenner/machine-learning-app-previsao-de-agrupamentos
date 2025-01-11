@@ -7,7 +7,7 @@ scaler = joblib.load('scaler.pkl')
 kmeans = joblib.load('kmeans.pkl')
 
 
-base="dark"
+base="white"
 primaryColor="#1f77b4"
 backgroundColor="#f9f9f9"
 secondaryBackgroundColor="#ffffff"
