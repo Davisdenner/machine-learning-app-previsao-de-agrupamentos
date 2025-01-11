@@ -7,7 +7,7 @@ scaler = joblib.load('scaler.pkl')
 kmeans = joblib.load('kmeans.pkl')
 
 
-base="white"
+base="dark"
 primaryColor="#1f77b4"
 backgroundColor="#f9f9f9"
 secondaryBackgroundColor="#ffffff"
@@ -46,7 +46,7 @@ if up_file is not None:
     cluster = processar_prever(df)
     df.insert(0, 'grupos', cluster)
 
-    st.write('Visualização dos resultados (12 primeiros registros):')
+    st.write('Visualização dos resultados (10 primeiros registros):')
     st.write(df.head(10))
 
     csv = df.to_csv(index=False)
